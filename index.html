@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/header-illustration.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/response.css">
+    <title>Rick & Morty Cards</title>
+    </head>
+<body>
+    <header>
+        <h1>Rick and Morty</h1>
+    </header>
+    <main class="rm-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./images/seta.png" alt="seta voltar" />
+        </button>
+        
+        <ul class="lista-cartas">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Snuffles</h2>
+                    <p class="temporada">TP-1</p>
+                </div>
+                
+                <div class="container-imagem">
+                    <img src="./images/snuffles-card1.png" alt="Snuffles" class="imagem-snuffles"/>
+                </div>
+                
+                <div class="descricao">
+                    <h3 class="titulo">Descrição da carta</h3>
+                    <p class="texto">Pelagem branca e fofura incomparável, só resta saber o que esse capacete em sua cabeça quer dizer.</p>
+                </div>
+            </li>
+            
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Abre o olho</h2>
+                    <p class="temporada">TP-1</p>
+                </div>
+                
+                <div class="container-imagem">
+                    <img src="./images/cantyousee-card2.png" alt="Abre o olho, Morty" class="imagem-abreoolho"/>
+                </div>
+                
+                <div class="descricao">
+                    <h3 class="titulo">Descrição da carta</h3>
+                    <p class="texto">Olha só pra toda essa maluquice, Morty. Você acha que iria ver tudo isso na escola?</p>
+                </div>
+            </li>
+            
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Morty Nervoso</h2>
+                    <p class="temporada">TP-1</p>
+                </div>
+                
+                <div class="container-imagem">
+                <img src="./images/angrymorty-card3.png" alt="Morty Furioso" class="imagem-morty"/>
+                </div>
+                
+                <div class="descricao">
+                    <h3 class="titulo">Descrição da carta</h3>
+                    <p class="texto">Morty é um garoto ansioso e facilmente manipulado, principalmente pelo seu avô Rick, às vezes ele fica um pouco nervoso.</p>
+                </div>
+            </li>
+        </ul>
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./images/seta.png" alt="seta avançar" />
+        </button>
+    </main>
+        <script src="./src/js/script.js"></script>
+</body>
+</html>
