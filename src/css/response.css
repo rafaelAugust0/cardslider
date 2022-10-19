@@ -1,0 +1,32 @@
+@media (max-width: 770px) {
+    header {
+        font-size: 18px;
+    }
+    
+    button img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .cartao {
+        max-width: 75vw;
+    }
+    
+    .rm-slider{
+        gap: 0px;
+    }
+    
+    .lista-cartas {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
