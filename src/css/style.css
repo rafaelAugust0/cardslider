@@ -1,0 +1,40 @@
+@font-face {
+    font-family: getSchwifty;
+    src: url('../../font-import/getSchwifty.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-image: url('../../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+
+header {
+    color: black;
+    font-family: getSchwifty;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 5px 5px #FFF;
+    padding: 30px;
+}
+
+.rm-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 5px 0;
+}
